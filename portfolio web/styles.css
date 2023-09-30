@@ -1,0 +1,138 @@
+/* css styling*/
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            animation: fadeInUp 1s ease;
+            background-color: rgba(19, 146, 196, 0.7);
+            
+        }
+        .logo {
+          position: absolute;
+          top: 10px;
+          left: 20px;
+          font-size: 24px;
+          font-weight: bold;
+          color: white;
+      }
+
+        header h1 {
+            font-size: 36px;
+            margin: 0;
+            font-family:'Courier New', Courier, monospace;
+            font-size: 48px;
+            background: linear-gradient(45deg,rgb(6, 12, 97), rgb(15, 25, 165)); 
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        header h4 {
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: 0;
+            background: linear-gradient(45deg,rgb(6, 12, 97), rgb(15, 25, 165)); 
+
+        }
+
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            color: blue;
+        }
+
+        nav li {
+            display:inline;
+            margin-right: 20px;
+            font-weight: bold;
+            background-color: black;
+            color: blue;
+        }
+
+        .container {
+            max-width: 1050px;
+            margin: 0 auto;
+            padding: 30px;
+        }
+
+        .content {
+            padding: 20px;
+
+        }
+
+        .gallery {
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .gallery img {
+            width: 17%;
+            margin-bottom: 20px;
+        }
+        .content {
+            margin: 20px;
+            align-items: center;
+        }
+
+        h2 {
+            font-size: 24px;
+            text-align: center;
+        }
+
+        .achievements {
+            margin-top: 20px;
+        }
+
+        .achievement-category {
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            font-size: 20px;
+            text-decoration: underline;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            font-size: 16px;
+        }
+
+        p {
+            font-size: 16px;
+            margin-top: 20px;
+        }
+
+        .contact-icons {
+            display: flex;
+            margin: 20px;
+            justify-content: space-around;
+            align-items: center;
+
+            
+        }
+
+        
+        
+
+        footer {
+            text-align: center;
+            background-color: blue;
+            color: white;
+            padding: 10px 0;
+        }
+    
+  
+  
